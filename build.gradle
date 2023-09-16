@@ -19,6 +19,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.postgresql:postgresql:42.6.0'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc:2.5.4'
+// https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.6.0'
+
 }
 
 tasks.named('test') {
